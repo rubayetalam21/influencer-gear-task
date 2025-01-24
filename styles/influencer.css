@@ -23,9 +23,9 @@
 .bg-color{
     
 }
-/* Header Related Style */
+/* Header */
 
-/* Nav Bar Style */
+/* Nav Bar */
 .nav-bar{
     justify-content: space-between;
     align-items: center;
@@ -41,7 +41,7 @@ ul li a{
     text-decoration: none;
 }
 
-/* Banner Style */
+/* Banner */
 .banner{
     margin-left: 100px;
     margin-right: 100px;
@@ -72,7 +72,7 @@ ul li a{
     height: 100%;
 }
 
-/* Sponsor Section Related Style */
+/* Sponsor Section */
 
 .sponsor-company{
     justify-content: center;
@@ -129,4 +129,46 @@ ul li a{
     font-weight: 700;
     font-size: 0.75rem;
     color: #787885;
+}
+
+/* Featured Product Section */
+.featured-product-section{
+    margin: 80px 100px;
+}
+.featured-product-section-content{
+    padding-left: 90px;
+}
+.featured-product-section-content-description{
+    max-width: 500px;
+    font-weight: 700;
+    font-size: 0.75rem;
+    color: #6C6C6C;
+}
+.join-now{
+    border-radius: 0px;
+}
+
+/* Footer */
+
+.footer-section{
+    padding: 80px 100px;
+    background-color: #000000;
+}
+.footer-div{
+    text-align: center;
+}
+.footer-title, .footer-second-title, .footer-third-title {
+    color: white;
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.footer-second-title, .footer-third-title{
+    font-weight: 700;
+    font-size: 0.5rem;
+}
+.footer-div img{
+    width: 20px;
+    height: 20px;
 }
